@@ -88,18 +88,7 @@
     nextLabel.scale=1;
     self.currentIndex=(int)tap.view.tag;
 }
--(ZXChannelLabel * )label{
-    
-    UIResponder * next = [self nextResponder];
-    while (next!=nil) {
-        if([next isKindOfClass:[ZXChannelLabel class]]){
-            return (ZXChannelLabel * )next;
-        }
-        next = [next nextResponder];
-        NSLog(@"%@",next);
-    }
-    return nil;
-}
+
 //当计算完collectionView的大小的时候再去设置Cell的大小
 -(void)viewDidLayoutSubviews
 {
