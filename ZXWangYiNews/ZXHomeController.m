@@ -54,8 +54,9 @@
     CGFloat marginX=5;
     CGFloat x=marginX;
     CGFloat y=0;
-    for(ZXChannel * channel in self.channels)
+    for(int i=0;i<self.channels.count;i++)
     {
+        ZXChannel * channel=self.channels[i];
         ZXChannelLabel * label=[ZXChannelLabel channelLabelWithTname:channel.tname];
         //设置label的frame
         CGFloat w=label.bounds.size.width;
@@ -63,6 +64,11 @@
         label.frame=CGRectMake(x, y, w, h);
         x+=marginX+w;
         [self.scrollView addSubview:label];
+        label.tag=i;
+        label.userInteractionEnabled=YES;
+        UITapGestureRecognizer * tap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(scrollItem:)];
+        [label addGestureRecognizer:tap];
+        
     }
     self.scrollView.contentSize=CGSizeMake(x, 0);
     self.scrollView.showsHorizontalScrollIndicator=NO;
@@ -70,6 +76,29 @@
     ZXChannelLabel * label=self.scrollView.subviews[0];
     label.scale=1;
     
+}
+//label的点击手势
+-(void)scrollItem:(UITapGestureRecognizer *)tap
+{
+    NSIndexPath * indexPath=[NSIndexPath indexPathForItem:tap.view.tag inSection:0];
+[self.collectionView scrollToItemAtIndexPath:indexPath atScrollPosition:0 animated:NO];
+     ZXChannelLabel * currentLabel=self.scrollView.subviews[self.currentIndex];
+    ZXChannelLabel *nextLabel =self.scrollView.subviews[tap.view.tag];
+    currentLabel.scale=0;
+    nextLabel.scale=1;
+    self.currentIndex=(int)tap.view.tag;
+}
+-(ZXChannelLabel * )label{
+    
+    UIResponder * next = [self nextResponder];
+    while (next!=nil) {
+        if([next isKindOfClass:[ZXChannelLabel class]]){
+            return (ZXChannelLabel * )next;
+        }
+        next = [next nextResponder];
+        NSLog(@"%@",next);
+    }
+    return nil;
 }
 //当计算完collectionView的大小的时候再去设置Cell的大小
 -(void)viewDidLayoutSubviews

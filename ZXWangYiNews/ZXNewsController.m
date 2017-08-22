@@ -65,6 +65,7 @@
     UINavigationController * nav=[self navigationController];
     [nav pushViewController:vc animated:YES];
 }
+//获取navigationController的响应者
 -(UINavigationController * )navigationController{
     
     UIResponder * next = [self nextResponder];
