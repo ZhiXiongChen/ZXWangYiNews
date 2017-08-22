@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <AFNetworkActivityIndicatorManager.h>
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //显示加载网络的指示符
+    [[AFNetworkActivityIndicatorManager sharedManager]setEnabled:YES];
+    //设置缓存,都保存在imagesCache这个文件夹下面，当磁盘中设定的容量不够用了会自动清理前面的NSURLCache缓存了从服务器返回的NSURLResponse对象。它的默认配置只是缓存在内存并没有写到硬盘。
+    NSURLCache * cache=[[NSURLCache alloc]initWithMemoryCapacity:1024*1024*5 diskCapacity:1024*1024*10 diskPath:@"imagesCache"];
+    [NSURLCache setSharedURLCache:cache];
     return YES;
 }
 

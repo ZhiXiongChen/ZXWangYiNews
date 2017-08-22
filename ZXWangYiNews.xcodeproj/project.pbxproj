@@ -7,25 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31271718007C7D859AA14086 /* libPods-ZXWangYiNews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3095DB6C45D8696127418028 /* libPods-ZXWangYiNews.a */; };
+		C90E5A971F4AFA7200AF692F /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C90E5A961F4AFA7200AF692F /* index.html */; };
+		C90E5A9A1F4AFC3800AF692F /* ZXWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = C90E5A991F4AFC3800AF692F /* ZXWebController.m */; };
+		C91136461F4909EA009ECB81 /* ZXNews.m in Sources */ = {isa = PBXBuildFile; fileRef = C91136451F4909EA009ECB81 /* ZXNews.m */; };
+		C91136491F4916E9009ECB81 /* ZXNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91136481F4916E9009ECB81 /* ZXNewsController.m */; };
+		C911364C1F491B8B009ECB81 /* ZXNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C911364B1F491B8B009ECB81 /* ZXNewsCell.m */; };
+		C91136711F495A5E009ECB81 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91136701F495A5E009ECB81 /* Home.storyboard */; };
+		C91136731F495D3C009ECB81 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = C91136721F495D3C009ECB81 /* topic_news.json */; };
+		C91136771F495E86009ECB81 /* ZXChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = C91136761F495E86009ECB81 /* ZXChannel.m */; };
+		C911367A1F4963DF009ECB81 /* ZXHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C91136791F4963DF009ECB81 /* ZXHomeController.m */; };
+		C911367D1F496E11009ECB81 /* ZXChannelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C911367C1F496E11009ECB81 /* ZXChannelLabel.m */; };
+		C91136801F497AAD009ECB81 /* ZXHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C911367F1F497AAD009ECB81 /* ZXHomeCell.m */; };
 		C9291F671F47FAD20004C4F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9291F661F47FAD20004C4F3 /* main.m */; };
 		C9291F6A1F47FAD20004C4F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9291F691F47FAD20004C4F3 /* AppDelegate.m */; };
-		C9291F6D1F47FAD20004C4F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9291F6C1F47FAD20004C4F3 /* ViewController.m */; };
-		C9291F701F47FAD20004C4F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9291F6E1F47FAD20004C4F3 /* Main.storyboard */; };
 		C9291F721F47FAD20004C4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9291F711F47FAD20004C4F3 /* Assets.xcassets */; };
 		C9291F751F47FAD20004C4F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9291F731F47FAD20004C4F3 /* LaunchScreen.storyboard */; };
+		C9291F7F1F480A0D0004C4F3 /* ZXNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C9291F7E1F480A0D0004C4F3 /* ZXNetworkTools.m */; };
+		C9291F831F4811150004C4F3 /* ZXHeadline.m in Sources */ = {isa = PBXBuildFile; fileRef = C9291F821F4811150004C4F3 /* ZXHeadline.m */; };
+		C9291F851F4820E00004C4F3 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9291F841F4820E00004C4F3 /* News.storyboard */; };
+		C9291F881F4821080004C4F3 /* ZXImageLoopController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9291F871F4821080004C4F3 /* ZXImageLoopController.m */; };
+		C9291F8B1F482F2F0004C4F3 /* ZXCollectionImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9291F8A1F482F2F0004C4F3 /* ZXCollectionImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3095DB6C45D8696127418028 /* libPods-ZXWangYiNews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZXWangYiNews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		420A1E0092CAB0241B6A863B /* Pods-ZXWangYiNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXWangYiNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXWangYiNews/Pods-ZXWangYiNews.release.xcconfig"; sourceTree = "<group>"; };
+		C58B82EBA250A72846EF0A17 /* Pods-ZXWangYiNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXWangYiNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXWangYiNews/Pods-ZXWangYiNews.debug.xcconfig"; sourceTree = "<group>"; };
+		C90E5A961F4AFA7200AF692F /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		C90E5A981F4AFC3800AF692F /* ZXWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWebController.h; sourceTree = "<group>"; };
+		C90E5A991F4AFC3800AF692F /* ZXWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWebController.m; sourceTree = "<group>"; };
+		C91136441F4909EA009ECB81 /* ZXNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNews.h; sourceTree = "<group>"; };
+		C91136451F4909EA009ECB81 /* ZXNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNews.m; sourceTree = "<group>"; };
+		C91136471F4916E9009ECB81 /* ZXNewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNewsController.h; sourceTree = "<group>"; };
+		C91136481F4916E9009ECB81 /* ZXNewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNewsController.m; sourceTree = "<group>"; };
+		C911364A1F491B8B009ECB81 /* ZXNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNewsCell.h; sourceTree = "<group>"; };
+		C911364B1F491B8B009ECB81 /* ZXNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNewsCell.m; sourceTree = "<group>"; };
+		C91136701F495A5E009ECB81 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C91136721F495D3C009ECB81 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		C91136751F495E86009ECB81 /* ZXChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXChannel.h; sourceTree = "<group>"; };
+		C91136761F495E86009ECB81 /* ZXChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXChannel.m; sourceTree = "<group>"; };
+		C91136781F4963DF009ECB81 /* ZXHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHomeController.h; sourceTree = "<group>"; };
+		C91136791F4963DF009ECB81 /* ZXHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHomeController.m; sourceTree = "<group>"; };
+		C911367B1F496E11009ECB81 /* ZXChannelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXChannelLabel.h; sourceTree = "<group>"; };
+		C911367C1F496E11009ECB81 /* ZXChannelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXChannelLabel.m; sourceTree = "<group>"; };
+		C911367E1F497AAD009ECB81 /* ZXHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHomeCell.h; sourceTree = "<group>"; };
+		C911367F1F497AAD009ECB81 /* ZXHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHomeCell.m; sourceTree = "<group>"; };
 		C9291F621F47FAD20004C4F3 /* ZXWangYiNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXWangYiNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9291F661F47FAD20004C4F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9291F681F47FAD20004C4F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9291F691F47FAD20004C4F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C9291F6B1F47FAD20004C4F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C9291F6C1F47FAD20004C4F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C9291F6F1F47FAD20004C4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9291F711F47FAD20004C4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9291F741F47FAD20004C4F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9291F761F47FAD20004C4F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9291F7D1F480A0D0004C4F3 /* ZXNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXNetworkTools.h; sourceTree = "<group>"; };
+		C9291F7E1F480A0D0004C4F3 /* ZXNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXNetworkTools.m; sourceTree = "<group>"; };
+		C9291F811F4811150004C4F3 /* ZXHeadline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHeadline.h; sourceTree = "<group>"; };
+		C9291F821F4811150004C4F3 /* ZXHeadline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHeadline.m; sourceTree = "<group>"; };
+		C9291F841F4820E00004C4F3 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		C9291F861F4821080004C4F3 /* ZXImageLoopController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageLoopController.h; sourceTree = "<group>"; };
+		C9291F871F4821080004C4F3 /* ZXImageLoopController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageLoopController.m; sourceTree = "<group>"; };
+		C9291F891F482F2F0004C4F3 /* ZXCollectionImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXCollectionImageCell.h; sourceTree = "<group>"; };
+		C9291F8A1F482F2F0004C4F3 /* ZXCollectionImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXCollectionImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +76,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31271718007C7D859AA14086 /* libPods-ZXWangYiNews.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E424B909ADE75181F5AC7E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C58B82EBA250A72846EF0A17 /* Pods-ZXWangYiNews.debug.xcconfig */,
+				420A1E0092CAB0241B6A863B /* Pods-ZXWangYiNews.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E1FA5709A0ED848E2DBD555 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3095DB6C45D8696127418028 /* libPods-ZXWangYiNews.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C91136431F4909D1009ECB81 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				C91136441F4909EA009ECB81 /* ZXNews.h */,
+				C91136451F4909EA009ECB81 /* ZXNews.m */,
+				C91136471F4916E9009ECB81 /* ZXNewsController.h */,
+				C91136481F4916E9009ECB81 /* ZXNewsController.m */,
+				C911364A1F491B8B009ECB81 /* ZXNewsCell.h */,
+				C911364B1F491B8B009ECB81 /* ZXNewsCell.m */,
+				C90E5A981F4AFC3800AF692F /* ZXWebController.h */,
+				C90E5A991F4AFC3800AF692F /* ZXWebController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		C91136741F495E4F009ECB81 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C91136751F495E86009ECB81 /* ZXChannel.h */,
+				C91136761F495E86009ECB81 /* ZXChannel.m */,
+				C91136781F4963DF009ECB81 /* ZXHomeController.h */,
+				C91136791F4963DF009ECB81 /* ZXHomeController.m */,
+				C911367B1F496E11009ECB81 /* ZXChannelLabel.h */,
+				C911367C1F496E11009ECB81 /* ZXChannelLabel.m */,
+				C911367E1F497AAD009ECB81 /* ZXHomeCell.h */,
+				C911367F1F497AAD009ECB81 /* ZXHomeCell.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 		C9291F591F47FAD20004C4F3 = {
 			isa = PBXGroup;
 			children = (
 				C9291F641F47FAD20004C4F3 /* ZXWangYiNews */,
 				C9291F631F47FAD20004C4F3 /* Products */,
+				2E424B909ADE75181F5AC7E4 /* Pods */,
+				6E1FA5709A0ED848E2DBD555 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +151,14 @@
 		C9291F641F47FAD20004C4F3 /* ZXWangYiNews */ = {
 			isa = PBXGroup;
 			children = (
+				C91136741F495E4F009ECB81 /* Home */,
+				C91136431F4909D1009ECB81 /* News */,
+				C9291F801F4810D00004C4F3 /* ImageLoop */,
+				C9291F7C1F4803F40004C4F3 /* Tools */,
 				C9291F681F47FAD20004C4F3 /* AppDelegate.h */,
 				C9291F691F47FAD20004C4F3 /* AppDelegate.m */,
-				C9291F6B1F47FAD20004C4F3 /* ViewController.h */,
-				C9291F6C1F47FAD20004C4F3 /* ViewController.m */,
-				C9291F6E1F47FAD20004C4F3 /* Main.storyboard */,
+				C9291F841F4820E00004C4F3 /* News.storyboard */,
+				C91136701F495A5E009ECB81 /* Home.storyboard */,
 				C9291F711F47FAD20004C4F3 /* Assets.xcassets */,
 				C9291F731F47FAD20004C4F3 /* LaunchScreen.storyboard */,
 				C9291F761F47FAD20004C4F3 /* Info.plist */,
@@ -74,9 +170,33 @@
 		C9291F651F47FAD20004C4F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C90E5A961F4AFA7200AF692F /* index.html */,
+				C91136721F495D3C009ECB81 /* topic_news.json */,
 				C9291F661F47FAD20004C4F3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9291F7C1F4803F40004C4F3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				C9291F7D1F480A0D0004C4F3 /* ZXNetworkTools.h */,
+				C9291F7E1F480A0D0004C4F3 /* ZXNetworkTools.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		C9291F801F4810D00004C4F3 /* ImageLoop */ = {
+			isa = PBXGroup;
+			children = (
+				C9291F811F4811150004C4F3 /* ZXHeadline.h */,
+				C9291F821F4811150004C4F3 /* ZXHeadline.m */,
+				C9291F861F4821080004C4F3 /* ZXImageLoopController.h */,
+				C9291F871F4821080004C4F3 /* ZXImageLoopController.m */,
+				C9291F891F482F2F0004C4F3 /* ZXCollectionImageCell.h */,
+				C9291F8A1F482F2F0004C4F3 /* ZXCollectionImageCell.m */,
+			);
+			name = ImageLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9291F791F47FAD20004C4F3 /* Build configuration list for PBXNativeTarget "ZXWangYiNews" */;
 			buildPhases = (
+				E7495FD53EEF7CDFDCBADA2F /* [CP] Check Pods Manifest.lock */,
 				C9291F5E1F47FAD20004C4F3 /* Sources */,
 				C9291F5F1F47FAD20004C4F3 /* Frameworks */,
 				C9291F601F47FAD20004C4F3 /* Resources */,
+				CB771242602245F349188EE4 /* [CP] Embed Pods Frameworks */,
+				C023814A7AEEAEEF7BFC5B58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,19 +261,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9291F751F47FAD20004C4F3 /* LaunchScreen.storyboard in Resources */,
+				C9291F851F4820E00004C4F3 /* News.storyboard in Resources */,
 				C9291F721F47FAD20004C4F3 /* Assets.xcassets in Resources */,
-				C9291F701F47FAD20004C4F3 /* Main.storyboard in Resources */,
+				C90E5A971F4AFA7200AF692F /* index.html in Resources */,
+				C91136731F495D3C009ECB81 /* topic_news.json in Resources */,
+				C91136711F495A5E009ECB81 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C023814A7AEEAEEF7BFC5B58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXWangYiNews/Pods-ZXWangYiNews-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB771242602245F349188EE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXWangYiNews/Pods-ZXWangYiNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7495FD53EEF7CDFDCBADA2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZXWangYiNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9291F5E1F47FAD20004C4F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9291F6D1F47FAD20004C4F3 /* ViewController.m in Sources */,
+				C91136491F4916E9009ECB81 /* ZXNewsController.m in Sources */,
+				C911367A1F4963DF009ECB81 /* ZXHomeController.m in Sources */,
+				C90E5A9A1F4AFC3800AF692F /* ZXWebController.m in Sources */,
+				C911364C1F491B8B009ECB81 /* ZXNewsCell.m in Sources */,
+				C9291F7F1F480A0D0004C4F3 /* ZXNetworkTools.m in Sources */,
+				C9291F8B1F482F2F0004C4F3 /* ZXCollectionImageCell.m in Sources */,
+				C9291F831F4811150004C4F3 /* ZXHeadline.m in Sources */,
+				C911367D1F496E11009ECB81 /* ZXChannelLabel.m in Sources */,
+				C9291F881F4821080004C4F3 /* ZXImageLoopController.m in Sources */,
+				C91136461F4909EA009ECB81 /* ZXNews.m in Sources */,
+				C91136801F497AAD009ECB81 /* ZXHomeCell.m in Sources */,
+				C91136771F495E86009ECB81 /* ZXChannel.m in Sources */,
 				C9291F6A1F47FAD20004C4F3 /* AppDelegate.m in Sources */,
 				C9291F671F47FAD20004C4F3 /* main.m in Sources */,
 			);
@@ -159,14 +347,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C9291F6E1F47FAD20004C4F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9291F6F1F47FAD20004C4F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9291F731F47FAD20004C4F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +452,7 @@
 		};
 		C9291F7A1F47FAD20004C4F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58B82EBA250A72846EF0A17 /* Pods-ZXWangYiNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZXWangYiNews/Info.plist;
@@ -283,6 +464,7 @@
 		};
 		C9291F7B1F47FAD20004C4F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420A1E0092CAB0241B6A863B /* Pods-ZXWangYiNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZXWangYiNews/Info.plist;
@@ -311,6 +493,7 @@
 				C9291F7B1F47FAD20004C4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

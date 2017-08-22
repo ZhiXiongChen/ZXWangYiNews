@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZXImageLoopController.h
 //  ZXWangYiNews
 //
 //  Created by zhixiongchen on 2017/8/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZXImageLoopController : UICollectionViewController
 
 @end
-
